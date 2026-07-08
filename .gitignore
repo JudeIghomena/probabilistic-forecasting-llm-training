@@ -1,0 +1,37 @@
+# Private session notes — never commit
+Notes.md
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+prob_pipeline_env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+*.env
+
+# Generated outputs
+pipeline/results/*.csv
+pipeline/results/*.json
+pipeline/results/*.png
+
+# API keys or secrets (safety net)
+secrets.txt
+api_keys.txt
