@@ -16,7 +16,7 @@ venv/
 prob_pipeline_env/
 *.egg-info/
 dist/
-build/
+/build/
 .eggs/
 
 # Jupyter
