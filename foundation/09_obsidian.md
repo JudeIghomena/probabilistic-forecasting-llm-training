@@ -1,4 +1,4 @@
-# Foundation Guide 09 — Obsidian
+# Foundation Guide 09: Obsidian
 
 **This is the last foundation guide. Complete it and then begin Session 01.**
 
@@ -8,7 +8,7 @@
 
 Obsidian is a free application for reading and writing Markdown files. It
 renders `.md` files as clean, formatted documents with headings, tables,
-bullet points, and code blocks — exactly the way they are intended to be read.
+bullet points, and code blocks, exactly the way they are intended to be read.
 
 Without Obsidian (or VS Code's Markdown preview), your learn files look like
 this in a plain text editor:
@@ -30,7 +30,7 @@ folders.
 
 ---
 
-## Step 1 — Download and Install Obsidian
+## Step 1: Download and Install Obsidian
 
 1. Go to obsidian.md in your browser
 2. Click "Download" and choose your operating system
@@ -40,7 +40,7 @@ Obsidian is free for personal use. You do not need to create an account to use i
 
 ---
 
-## Step 2 — Open the Project as a Vault
+## Step 2: Open the Project as a Vault
 
 In Obsidian, a "vault" is just a folder. Opening a vault means telling
 Obsidian to treat that folder as your Markdown workspace.
@@ -51,11 +51,11 @@ Obsidian to treat that folder as your Markdown workspace.
 4. Click "Open" or "Select"
 
 Obsidian will index all the `.md` files in the project. You will see them
-in the left sidebar organised by folder — exactly matching the session structure.
+in the left sidebar organised by folder, exactly matching the session structure.
 
 ---
 
-## Step 3 — Navigate the Curriculum
+## Step 3: Navigate the Curriculum
 
 In the left sidebar, you will see the folder tree:
 
@@ -78,7 +78,7 @@ a book icon or pencil icon).
 
 ---
 
-## Step 4 — Reading Mode vs Editing Mode
+## Step 4: Reading Mode vs Editing Mode
 
 Obsidian has two modes:
 
@@ -94,7 +94,7 @@ Switch between them with `Ctrl + E` (or `Cmd + E` on macOS).
 
 ---
 
-## Step 5 — Write Your Paper Contributions Here
+## Step 5: Write Your Paper Contributions Here
 
 Your paper contribution files live in `Session_XX/paper/paper_contribution.md`.
 Obsidian is a good place to write them because:
@@ -109,7 +109,7 @@ To open two files side by side in Obsidian:
 
 ---
 
-## Step 6 — Useful Obsidian Settings to Change
+## Step 6: Useful Obsidian Settings to Change
 
 These settings make Obsidian more comfortable for this project:
 
@@ -118,7 +118,7 @@ Go to Settings, then Editor, and enable "Live Preview" mode.
 
 **Increase font size:**
 Go to Settings, then Appearance, and adjust the font size slider.
-The learn files are long — a comfortable reading size prevents eye strain.
+The learn files are long, a comfortable reading size prevents eye strain.
 
 **Disable the graph view:**
 The graph view shows connections between notes. For this project it is

@@ -1,4 +1,4 @@
-# Paper Contribution — Session 01
+# Paper Contribution: Session 01
 ## Section: Introduction
 
 This file contains your contribution to the research paper for Session 01.
@@ -21,7 +21,7 @@ Each question corresponds to one paragraph. You will write all four below.
 
 ---
 
-## Paragraph 1 — Why Probabilistic Forecasting Matters
+## Paragraph 1: Why Probabilistic Forecasting Matters
 
 This paragraph makes the case for the whole project. It should open with a
 concrete real-world scenario that shows the cost of a wrong forecast.
@@ -36,7 +36,7 @@ Write 4 to 6 sentences.
 
 ---
 
-## Paragraph 2 — What Exists and Where It Falls Short
+## Paragraph 2: What Exists and Where It Falls Short
 
 This paragraph sets up the problem by acknowledging what already exists.
 It should mention that LLMs are powerful general-purpose reasoners, and that
@@ -54,14 +54,14 @@ Write 4 to 6 sentences.
 Starter sentence: "Large language models (LLMs) have demonstrated strong
 performance across a wide range of intellectual tasks, including mathematical
 reasoning, text generation, and knowledge retrieval. However, their ability
-to produce reliable probabilistic forecasts — outputs that capture the full
-distribution of possible future values — remains largely unevaluated."
+to produce reliable probabilistic forecasts, outputs that capture the full
+distribution of possible future values, remains largely unevaluated."
 
 [WRITE YOUR PARAGRAPH HERE]
 
 ---
 
-## Paragraph 3 — The Gap This Project Fills
+## Paragraph 3: The Gap This Project Fills
 
 This paragraph states clearly what the project does that has not been done
 before. Be specific: you will benchmark multiple LLMs against classical
@@ -78,7 +78,7 @@ learning forecasting methods."
 
 ---
 
-## Paragraph 4 — Paper Outline
+## Paragraph 4: Paper Outline
 
 This paragraph tells the reader what they will find in each section.
 You will fill this in properly once all sections exist.

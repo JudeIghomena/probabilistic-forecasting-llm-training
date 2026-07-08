@@ -1,6 +1,6 @@
-# Session 10 — Results Analysis and Paper Synthesis
+# Session 10: Results Analysis and Paper Synthesis
 
-**Status: Locked — complete the previous session before opening this file.**
+**Status: Locked. Complete the previous session before opening this file.**
 
 This session covers:
 - Reading and interpreting results tables

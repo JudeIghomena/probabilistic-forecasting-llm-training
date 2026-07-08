@@ -1,4 +1,4 @@
-# Foundation Guide 01 — Installing Python
+# Foundation Guide 01: Installing Python
 
 **Read this first. Complete it before opening any session files.**
 
@@ -18,7 +18,7 @@ We chose Python for this project for three reasons:
 
 ---
 
-## Step 1 — Check If Python Is Already Installed
+## Step 1: Check If Python Is Already Installed
 
 Open a terminal on your computer and type:
 
@@ -48,7 +48,7 @@ Terminal if you have it installed.
 
 ---
 
-## Step 2 — Install Python
+## Step 2: Install Python
 
 ### macOS
 
@@ -82,7 +82,7 @@ python3 --version
 
 ---
 
-## Step 3 — Install pip
+## Step 3: Install pip
 
 pip is the Python package manager. It lets you install libraries like numpy,
 matplotlib, and the Anthropic API client.
@@ -113,7 +113,7 @@ python -m ensurepip --upgrade
 
 ---
 
-## Step 4 — Create a Virtual Environment for This Project
+## Step 4: Create a Virtual Environment for This Project
 
 A virtual environment is an isolated Python workspace. It keeps the packages
 you install for this project separate from everything else on your computer.
@@ -138,7 +138,7 @@ name in brackets, like: `(prob_pipeline_env) $`
 
 ---
 
-## Step 5 — Install the Core Libraries
+## Step 5: Install the Core Libraries
 
 With your virtual environment active, install all the libraries this project uses:
 
@@ -156,7 +156,7 @@ If you see `All good`, you are ready.
 
 ---
 
-## Step 6 — Install Jupyter (Optional but Recommended)
+## Step 6: Install Jupyter (Optional but Recommended)
 
 Jupyter notebooks let you run Python code one small block at a time and see
 the output immediately below each block. This is very useful for learning.

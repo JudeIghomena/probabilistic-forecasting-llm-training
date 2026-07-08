@@ -1,4 +1,4 @@
-# Foundation Guide 06 — Jupyter Notebooks
+# Foundation Guide 06: Jupyter Notebooks
 
 **Complete Foundation Guide 01 (Python) before this.**
 
@@ -22,7 +22,7 @@ and experimentation before writing the clean pipeline code.
 
 ---
 
-## Step 1 — Install Jupyter
+## Step 1: Install Jupyter
 
 With your virtual environment active, run:
 
@@ -40,7 +40,7 @@ Both do the same thing. JupyterLab has a better file browser and layout.
 
 ---
 
-## Step 2 — Launch Jupyter
+## Step 2: Launch Jupyter
 
 Navigate to your project folder in the terminal and run:
 
@@ -55,13 +55,13 @@ jupyter notebook
 ```
 
 Your browser will open automatically showing a file browser pointing at your
-project folder. If it does not open, look at the terminal output — there will
+project folder. If it does not open, look at the terminal output, there will
 be a URL starting with `http://localhost:8888` that you can copy and paste
 into your browser.
 
 ---
 
-## Step 3 — Create Your First Notebook
+## Step 3: Create Your First Notebook
 
 In the JupyterLab interface:
 
@@ -76,7 +76,7 @@ In the classic Jupyter interface:
 
 ---
 
-## Step 4 — Understand the Interface
+## Step 4: Understand the Interface
 
 A notebook is made of cells. Each cell is either a code cell or a text cell.
 
@@ -94,7 +94,7 @@ wrong (infinite loop, crash), go to Kernel in the menu and click "Restart".
 
 ---
 
-## Step 5 — Try These Three Cells
+## Step 5: Try These Three Cells
 
 Create a new notebook and run these three cells in order. This tests that
 your environment is fully working.
@@ -130,7 +130,7 @@ environment is fully working.
 
 ---
 
-## Step 6 — Save Your Notebook
+## Step 6: Save Your Notebook
 
 Press `Ctrl + S` (or `Cmd + S` on macOS) to save. Notebooks save as `.ipynb`
 files. Save your exploration notebook as:
@@ -144,7 +144,7 @@ the same session.
 
 ---
 
-## Step 7 — Notebooks vs Python Scripts
+## Step 7: Notebooks vs Python Scripts
 
 You will use both in this project. Here is when to use each:
 
@@ -162,7 +162,7 @@ use a script when you are building something that has to run reliably.
 
 ---
 
-## Step 8 — VS Code Has Built-In Notebook Support
+## Step 8: VS Code Has Built-In Notebook Support
 
 If you prefer to stay inside VS Code rather than opening a browser:
 

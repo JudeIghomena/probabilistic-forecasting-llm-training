@@ -1,6 +1,6 @@
-# Session 02 — Forecasting: Point vs Probabilistic
+# Session 02: Forecasting: Point vs Probabilistic
 
-**Status: Locked — complete Session 01 before opening this file.**
+**Status: Locked. Complete Session 01 before opening this file.**
 
 This session covers:
 - What forecasting is and where it is used

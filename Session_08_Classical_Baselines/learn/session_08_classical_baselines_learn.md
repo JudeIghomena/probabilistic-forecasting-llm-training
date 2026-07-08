@@ -1,6 +1,6 @@
-# Session 08 — Classical Forecasting Baselines
+# Session 08: Classical Forecasting Baselines
 
-**Status: Locked — complete the previous session before opening this file.**
+**Status: Locked. Complete the previous session before opening this file.**
 
 This session covers:
 - Why baselines matter in benchmarking

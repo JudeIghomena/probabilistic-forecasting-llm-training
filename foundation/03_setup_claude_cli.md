@@ -1,4 +1,4 @@
-# Foundation Guide 03 — Setting Up Claude CLI
+# Foundation Guide 03: Setting Up Claude CLI
 
 **Complete Foundation Guides 01 and 02 before this.**
 
@@ -10,14 +10,14 @@ Claude CLI (Command Line Interface) is a tool that lets you talk to Claude
 directly from your terminal, without opening a browser or the desktop app.
 
 In this project, the pipeline code will use Claude CLI to send forecasting
-requests to Claude programmatically — meaning the code itself talks to Claude,
+requests to Claude programmatically, meaning the code itself talks to Claude,
 not you manually. This is how the benchmarking pipeline queries the LLM at scale.
 
 You will also use it directly in the terminal to test prompts quickly.
 
 ---
 
-## Step 1 — Install Node.js (Required First)
+## Step 1: Install Node.js (Required First)
 
 Claude CLI is installed through npm, which comes with Node.js.
 
@@ -32,13 +32,13 @@ If you see a version number (v18 or higher), skip to Step 2.
 If not, install Node.js:
 
 1. Go to nodejs.org in your browser
-2. Download the LTS (Long Term Support) version — it is the most stable
+2. Download the LTS (Long Term Support) version, it is the most stable
 3. Run the installer and follow the steps
 4. Open a new terminal and run `node --version` to confirm it worked
 
 ---
 
-## Step 2 — Install Claude CLI
+## Step 2: Install Claude CLI
 
 With Node.js installed, run this in your terminal:
 
@@ -59,7 +59,7 @@ You should see a version number printed.
 
 ---
 
-## Step 3 — Get Your Anthropic API Key
+## Step 3: Get Your Anthropic API Key
 
 The CLI needs an API key to connect to Anthropic's servers.
 
@@ -68,17 +68,17 @@ The CLI needs an API key to connect to Anthropic's servers.
 3. In the left sidebar, click "API Keys"
 4. Click "Create Key"
 5. Give it a name like "probability-pipeline-project"
-6. Copy the key — it starts with `sk-ant-`
+6. Copy the key, it starts with `sk-ant-`
 7. Store it somewhere safe immediately. You cannot view it again after closing that page.
 
 ---
 
-## Step 4 — Store the API Key as an Environment Variable
+## Step 4: Store the API Key as an Environment Variable
 
 Never paste your API key directly into code files. If you commit code to GitHub
 with a key inside it, that key is compromised and must be deleted immediately.
 
-The correct approach is to store the key as an environment variable — a named
+The correct approach is to store the key as an environment variable, a named
 value your operating system holds in memory that your code can read without
 the key ever appearing in the file.
 
@@ -112,7 +112,7 @@ You should see your key printed. If it prints nothing, the variable was not set.
 
 ---
 
-## Step 5 — Log In to Claude CLI
+## Step 5: Log In to Claude CLI
 
 Run:
 
@@ -132,9 +132,9 @@ Press Ctrl + C to exit the interactive session.
 
 ---
 
-## Step 6 — Test a Non-Interactive Request
+## Step 6: Test a Non-Interactive Request
 
-In the pipeline, we will call Claude non-interactively — passing a prompt and
+In the pipeline, we will call Claude non-interactively, passing a prompt and
 getting a response back as text, without a back-and-forth conversation.
 
 Test this now:
@@ -150,7 +150,7 @@ the pipeline will make at scale in Sessions 04 and 09.
 
 ---
 
-## Step 7 — Understand the Difference Between the Desktop App and the CLI
+## Step 7: Understand the Difference Between the Desktop App and the CLI
 
 Both connect to Claude, but they are used differently in this project:
 
@@ -163,7 +163,7 @@ The desktop app is for you as a developer. The CLI is for your code to call.
 
 ---
 
-## Step 8 — The --print Flag (Important for the Pipeline)
+## Step 8: The --print Flag (Important for the Pipeline)
 
 When the pipeline code calls Claude, it uses the `--print` flag to get the
 response as plain text and exit immediately, without opening an interactive session.
@@ -195,7 +195,7 @@ The pipeline code includes retry logic for this reason.
 
 ---
 
-## Security Rules — Read These and Remember Them
+## Security Rules: Read These and Remember Them
 
 These rules apply for the entire duration of this project:
 

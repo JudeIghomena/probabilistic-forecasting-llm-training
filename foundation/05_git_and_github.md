@@ -1,4 +1,4 @@
-# Foundation Guide 05 — Git and GitHub
+# Foundation Guide 05: Git and GitHub
 
 **Complete Foundation Guide 04 (VS Code) before this.**
 
@@ -22,7 +22,7 @@ In this project you use Git and GitHub for three things:
 
 ---
 
-## Step 1 — Install Git
+## Step 1: Install Git
 
 **Check if Git is already installed:**
 
@@ -68,7 +68,7 @@ sudo apt install git
 
 ---
 
-## Step 2 — Create a GitHub Account
+## Step 2: Create a GitHub Account
 
 1. Go to github.com in your browser
 2. Click "Sign up"
@@ -76,11 +76,11 @@ sudo apt install git
 4. Verify your email address
 
 Your GitHub username will be publicly visible, so choose something
-professional — your name or initials is fine.
+professional, your name or initials is fine.
 
 ---
 
-## Step 3 — Configure Git with Your Identity
+## Step 3: Configure Git with Your Identity
 
 Git needs to know who you are so your commits are labelled correctly.
 Run these two commands in your terminal, replacing the values with your
@@ -101,7 +101,7 @@ You should see your name and email in the output.
 
 ---
 
-## Step 4 — Clone the Training Repository
+## Step 4: Clone the Training Repository
 
 Cloning means downloading the project from GitHub to your computer,
 with the full Git history attached. This is how you get all the session
@@ -128,7 +128,7 @@ code probabilistic-forecasting-llm-training
 
 ---
 
-## Step 5 — Understand the Core Git Commands
+## Step 5: Understand the Core Git Commands
 
 You will use these six commands throughout every session:
 
@@ -175,7 +175,7 @@ git log --oneline
 
 ---
 
-## Step 6 — The Session Commit Habit
+## Step 6: The Session Commit Habit
 
 At the end of every build session, commit and push your work.
 This is your session backup. Never end a session without doing this.
@@ -190,7 +190,7 @@ If you skip this and your computer crashes, the session's work is gone.
 
 ---
 
-## Step 7 — What to Never Commit
+## Step 7: What to Never Commit
 
 Some files must never go to GitHub:
 
@@ -221,7 +221,7 @@ project folder first: `cd probabilistic-forecasting-llm-training`
 **Merge conflict:**
 This happens when two changes affect the same line. Git will mark the
 conflict in the file. Ask Claude Code to explain and resolve the conflict
-for you — it handles these well.
+for you, it handles these well.
 
 ---
 

@@ -1,5 +1,5 @@
 # Probabilistic Forecasting Evaluation with Large Language Models
-## Training Curriculum — 10 Session Program
+## Training Curriculum: 10 Session Program
 
 **Project:** Systematically evaluate the ability of LLMs to generate probabilistic and distributional forecasts, benchmarked against classical methods using proper scoring rules.
 

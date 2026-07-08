@@ -1,6 +1,6 @@
-# Session 04 — Prompt Engineering for Structured Output
+# Session 04: Prompt Engineering for Structured Output
 
-**Status: Locked — complete the previous session before opening this file.**
+**Status: Locked. Complete the previous session before opening this file.**
 
 This session covers:
 - Why prompt design matters for probabilistic forecasting

@@ -1,4 +1,4 @@
-# Foundation Guide 08 — Hugging Face and Llama
+# Foundation Guide 08: Hugging Face and Llama
 
 **Complete Foundation Guides 03 and 07 (Anthropic and OpenAI API) before this.**
 
@@ -20,8 +20,8 @@ This project benchmarks three categories of LLMs:
 Hugging Face is the platform that hosts Llama and thousands of other
 open-source models. It provides two ways to use them:
 
-1. The Inference API — you call the model remotely, like a commercial API
-2. Local download — you download the model weights and run it on your machine
+1. The Inference API, you call the model remotely, like a commercial API
+2. Local download, you download the model weights and run it on your machine
 
 This project uses the Inference API as the primary approach because it
 requires no GPU and works on any computer. Local download is covered at
@@ -29,7 +29,7 @@ the end of this guide as an optional extension for students with GPU access.
 
 ---
 
-## Step 1 — Create a Hugging Face Account
+## Step 1: Create a Hugging Face Account
 
 1. Go to huggingface.co in your browser
 2. Click "Sign Up"
@@ -38,7 +38,7 @@ the end of this guide as an optional extension for students with GPU access.
 
 ---
 
-## Step 2 — Create an Access Token
+## Step 2: Create an Access Token
 
 1. Log in to Hugging Face
 2. Click your profile picture in the top right
@@ -48,12 +48,12 @@ the end of this guide as an optional extension for students with GPU access.
 6. Give it a name: "probability-pipeline-project"
 7. Set the role to "Read"
 8. Click "Generate a token"
-9. Copy the token — it starts with `hf_`
+9. Copy the token, it starts with `hf_`
 10. Store it safely. You can view it again later in settings, but treat it as a secret.
 
 ---
 
-## Step 3 — Store the Token as an Environment Variable
+## Step 3: Store the Token as an Environment Variable
 
 **macOS / Linux:**
 ```
@@ -73,7 +73,7 @@ echo $HUGGINGFACE_API_KEY
 
 ---
 
-## Step 4 — Install the Required Libraries
+## Step 4: Install the Required Libraries
 
 With your virtual environment active:
 
@@ -87,7 +87,7 @@ pip install huggingface_hub transformers requests
 
 ---
 
-## Step 5 — Request Access to Llama
+## Step 5: Request Access to Llama
 
 Meta requires you to accept a licence agreement before downloading or using
 Llama models through the API.
@@ -103,7 +103,7 @@ You can check your access status at huggingface.co/settings/gated-repos.
 
 ---
 
-## Step 6 — Test the Inference API
+## Step 6: Test the Inference API
 
 The Hugging Face Inference API lets you call Llama remotely without
 downloading any model files. This is what the pipeline uses.
@@ -144,7 +144,7 @@ the response, wait 30 seconds and try again.
 
 ---
 
-## Step 7 — Understand Llama Model Sizes
+## Step 7: Understand Llama Model Sizes
 
 Llama comes in several sizes. Larger models are more capable but slower and
 more expensive (or require more GPU memory for local use).
@@ -161,7 +161,7 @@ For this project:
 
 ---
 
-## Optional Extension — Running Llama Locally
+## Optional Extension: Running Llama Locally
 
 If you have a computer with a dedicated GPU (NVIDIA with at least 8GB VRAM
 for the 8B model, at least 40GB VRAM for the 70B model), you can download
@@ -170,7 +170,7 @@ gives you faster responses at scale.
 
 This approach uses the `transformers` library and is recommended only if you
 have confirmed GPU access. If you are unsure whether your computer qualifies,
-use the Inference API approach above — it works on any machine.
+use the Inference API approach above, it works on any machine.
 
 **To run locally (GPU required):**
 
@@ -224,7 +224,7 @@ before attempting the local setup.
 
 **"Model is currently loading" in the API response:**
 The Inference API loads models on demand. Wait 30 seconds and retry.
-This only happens on the first call — subsequent calls are fast.
+This only happens on the first call, subsequent calls are fast.
 
 **401 Unauthorized:**
 Your token is incorrect or not set. Run `echo $HUGGINGFACE_API_KEY` to check.

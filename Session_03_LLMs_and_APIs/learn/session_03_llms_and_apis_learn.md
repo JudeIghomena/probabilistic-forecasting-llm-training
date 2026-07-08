@@ -1,6 +1,6 @@
-# Session 03 — Large Language Models and APIs
+# Session 03: Large Language Models and APIs
 
-**Status: Locked — complete the previous session before opening this file.**
+**Status: Locked. Complete the previous session before opening this file.**
 
 This session covers:
 - What an LLM is and how it works at a high level

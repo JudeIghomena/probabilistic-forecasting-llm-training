@@ -1,4 +1,4 @@
-# Foundation Guide 04 — Setting Up VS Code
+# Foundation Guide 04: Setting Up VS Code
 
 **Complete Foundation Guide 01 (Python) before this.**
 
@@ -16,12 +16,12 @@ In this project you will use VS Code for three things:
 3. Viewing and navigating the pipeline folder structure as it grows
 
 Claude Code Desktop handles AI-assisted coding. VS Code handles everything
-else — file management, markdown reading, and editing without AI assistance.
+else, file management, markdown reading, and editing without AI assistance.
 Both tools are open at the same time during every session.
 
 ---
 
-## Step 1 — Download and Install VS Code
+## Step 1: Download and Install VS Code
 
 1. Go to code.visualstudio.com in your browser
 2. Click the download button for your operating system
@@ -30,7 +30,7 @@ Both tools are open at the same time during every session.
 **macOS:** Open the downloaded zip, drag VS Code to Applications, open it.
 
 **Windows:** Run the installer. On the "Select Additional Tasks" screen,
-tick "Add to PATH" and "Open with Code" context menu options — both are
+tick "Add to PATH" and "Open with Code" context menu options, both are
 useful and easy to miss.
 
 **Linux (Ubuntu/Debian):**
@@ -41,7 +41,7 @@ sudo apt install code
 
 ---
 
-## Step 2 — Open the Project Folder
+## Step 2: Open the Project Folder
 
 1. Open VS Code
 2. Click "File" in the top menu, then "Open Folder"
@@ -54,7 +54,7 @@ learn, build, and paper files across sessions.
 
 ---
 
-## Step 3 — Install the Python Extension
+## Step 3: Install the Python Extension
 
 VS Code becomes much more useful for Python with the official extension.
 
@@ -68,13 +68,13 @@ and the ability to select which Python interpreter to use.
 
 ---
 
-## Step 4 — Install the Markdown Preview Extension
+## Step 4: Install the Markdown Preview Extension
 
 Your learn files and paper contributions are all written in Markdown.
 Without a preview, they look like raw text with symbols everywhere.
 With preview, they render as clean, formatted documents.
 
-The Markdown preview is built into VS Code — no extra extension needed.
+The Markdown preview is built into VS Code, no extra extension needed.
 
 To preview any Markdown file:
 1. Open the file (any `.md` file)
@@ -86,13 +86,13 @@ You can also right-click the tab of an open `.md` file and choose
 
 ---
 
-## Step 5 — Connect VS Code to Your Python Virtual Environment
+## Step 5: Connect VS Code to Your Python Virtual Environment
 
-VS Code needs to know which Python to use — the one inside your virtual
+VS Code needs to know which Python to use, the one inside your virtual
 environment, not the system Python.
 
 1. Open any `.py` file in VS Code
-2. Look at the bottom status bar — it shows the current Python interpreter
+2. Look at the bottom status bar, it shows the current Python interpreter
 3. Click on it
 4. A dropdown appears at the top of the screen showing available interpreters
 5. Select the one that shows your virtual environment path
@@ -104,12 +104,12 @@ and navigate to `prob_pipeline_env/bin/python` on macOS/Linux or
 
 ---
 
-## Step 6 — Install Two More Useful Extensions
+## Step 6: Install Two More Useful Extensions
 
-**Markdown All in One** — adds a table of contents, keyboard shortcuts for
+**Markdown All in One**, adds a table of contents, keyboard shortcuts for
 Markdown, and auto-formatting. Useful when writing paper sections.
 
-**GitLens** — shows who changed what in every file and integrates with Git
+**GitLens**, shows who changed what in every file and integrates with Git
 history. Useful once you start working with the pipeline across sessions.
 
 Install both the same way as the Python extension in Step 3.
@@ -121,7 +121,7 @@ Install both the same way as the Python extension in Step 3.
 During each session, you will have two windows open side by side:
 
 **Left window (VS Code):**
-- Learn file open in Markdown preview — your reference while working
+- Learn file open in Markdown preview, your reference while working
 - Paper contribution file open for writing
 - Project file tree visible in the sidebar
 

@@ -1,6 +1,6 @@
-# Session 06 — Proper Scoring Rules: CRPS and Log-Score
+# Session 06: Proper Scoring Rules: CRPS and Log-Score
 
-**Status: Locked — complete the previous session before opening this file.**
+**Status: Locked. Complete the previous session before opening this file.**
 
 This session covers:
 - What makes a scoring rule proper

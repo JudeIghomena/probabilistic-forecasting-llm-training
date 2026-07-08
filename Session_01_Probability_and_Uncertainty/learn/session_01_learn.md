@@ -1,4 +1,4 @@
-# Session 01 — Probability and Uncertainty
+# Session 01: Probability and Uncertainty
 
 **Read this before opening any code or writing any paper.**
 
@@ -172,7 +172,7 @@ Both types of uncertainty need to appear in a good probabilistic forecast. A mod
 
 ---
 
-## 8. Key Terms — Quick Reference
+## 8. Key Terms: Quick Reference
 
 | Term | Meaning |
 |---|---|

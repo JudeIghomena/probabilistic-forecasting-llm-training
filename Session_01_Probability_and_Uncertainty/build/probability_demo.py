@@ -1,5 +1,5 @@
 """
-Session 01 Build — Probability and Uncertainty
+Session 01 Build, Probability and Uncertainty
 ===============================================
 Run this file using Claude Code or directly with: python probability_demo.py
 
@@ -26,7 +26,7 @@ from scipy import stats
 
 # We will produce one figure with four panels (subplots)
 fig, axes = plt.subplots(2, 2, figsize=(12, 8))
-fig.suptitle("Session 01 — Probability Distributions and Uncertainty", fontsize=14)
+fig.suptitle("Session 01, Probability Distributions and Uncertainty", fontsize=14)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -69,7 +69,7 @@ gaussian_pdf = stats.norm.pdf(x, loc=20, scale=5)
 ax2 = axes[0, 1]
 ax2.plot(x, gaussian_pdf, label="Gaussian (std=5)",   color="blue",  linewidth=2)
 ax2.plot(x, laplace_pdf,  label="Laplace (scale=4)",  color="green", linewidth=2)
-ax2.set_title("Gaussian vs Laplace — Heavy Tails")
+ax2.set_title("Gaussian vs Laplace, Heavy Tails")
 ax2.set_xlabel("Value")
 ax2.set_ylabel("Probability Density")
 ax2.legend()
@@ -90,7 +90,7 @@ uniform_pdf = stats.uniform.pdf(x, loc=10, scale=20)  # from 10 to 30
 ax3 = axes[1, 0]
 ax3.plot(x, uniform_pdf,  label="Uniform (10 to 30)", color="purple", linewidth=2)
 ax3.plot(x, gaussian_narrow, label="Gaussian (confident)",  color="blue",  linewidth=2, linestyle="--")
-ax3.set_title("Uniform vs Gaussian — Maximum vs Minimum Uncertainty")
+ax3.set_title("Uniform vs Gaussian, Maximum vs Minimum Uncertainty")
 ax3.set_xlabel("Value")
 ax3.set_ylabel("Probability Density")
 ax3.legend()
@@ -182,7 +182,7 @@ def exercise_2_compare_tails():
     print("=== Exercise 2: Tail Behaviour ===")
     print(f"Gaussian extremes beyond {threshold}:  {(np.abs(gaussian_samples) > threshold).mean():.2%}")
     print(f"Laplace extremes beyond {threshold}:   {(np.abs(laplace_samples) > threshold).mean():.2%}")
-    print("Laplace produces more extreme values — this is what 'heavy tails' means.")
+    print("Laplace produces more extreme values, this is what 'heavy tails' means.")
     print()
 
 

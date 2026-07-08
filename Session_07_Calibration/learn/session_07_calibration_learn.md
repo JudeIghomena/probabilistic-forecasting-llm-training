@@ -1,6 +1,6 @@
-# Session 07 — Calibration: PIT, Reliability, and Sharpness
+# Session 07: Calibration: PIT, Reliability, and Sharpness
 
-**Status: Locked — complete the previous session before opening this file.**
+**Status: Locked. Complete the previous session before opening this file.**
 
 This session covers:
 - What calibration means in forecasting

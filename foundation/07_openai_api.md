@@ -1,4 +1,4 @@
-# Foundation Guide 07 — OpenAI API
+# Foundation Guide 07: OpenAI API
 
 **Complete Foundation Guide 03 (Claude CLI) before this.
 The pattern here is identical to what you did for Anthropic.**
@@ -17,7 +17,7 @@ Anthropic API.
 
 ---
 
-## Step 1 — Create an OpenAI Account
+## Step 1: Create an OpenAI Account
 
 1. Go to platform.openai.com in your browser
 2. Click "Sign up"
@@ -26,7 +26,7 @@ Anthropic API.
 
 ---
 
-## Step 2 — Add Billing (Required for API Access)
+## Step 2: Add Billing (Required for API Access)
 
 OpenAI's API is not free. You need to add a payment method and purchase credits.
 
@@ -40,18 +40,18 @@ can be used for exploration at much lower cost than GPT-4o.
 
 ---
 
-## Step 3 — Create an API Key
+## Step 3: Create an API Key
 
 1. Go to platform.openai.com/api-keys
 2. Click "Create new secret key"
 3. Give it a name: "probability-pipeline-project"
 4. Click "Create secret key"
-5. Copy the key immediately — it starts with `sk-`
+5. Copy the key immediately, it starts with `sk-`
 6. Store it somewhere safe. You cannot view it again after closing this page.
 
 ---
 
-## Step 4 — Store the Key as an Environment Variable
+## Step 4: Store the Key as an Environment Variable
 
 Never put the key in a code file. Store it as an environment variable
 exactly the same way as the Anthropic key.
@@ -76,7 +76,7 @@ echo $OPENAI_API_KEY
 
 ---
 
-## Step 5 — Install the OpenAI Python Library
+## Step 5: Install the OpenAI Python Library
 
 With your virtual environment active:
 
@@ -86,7 +86,7 @@ pip install openai
 
 ---
 
-## Step 6 — Test the Connection
+## Step 6: Test the Connection
 
 Create a file called `test_openai.py` and run it:
 
@@ -117,7 +117,7 @@ main benchmarking sessions will switch to `gpt-4o` for the formal evaluation.
 
 ---
 
-## Step 7 — Understand the Cost Structure
+## Step 7: Understand the Cost Structure
 
 OpenAI charges per token. A token is roughly 0.75 of a word.
 
@@ -139,7 +139,7 @@ Set a monthly spending limit to avoid surprises:
 
 ---
 
-## Step 8 — How the Pipeline Reads the Key
+## Step 8: How the Pipeline Reads the Key
 
 In every pipeline file that calls OpenAI, the key is read from the
 environment variable, never hardcoded:

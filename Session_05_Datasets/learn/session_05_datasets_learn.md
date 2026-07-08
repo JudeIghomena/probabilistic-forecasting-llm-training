@@ -1,6 +1,6 @@
-# Session 05 — Time Series Data and Benchmark Datasets
+# Session 05: Time Series Data and Benchmark Datasets
 
-**Status: Locked — complete the previous session before opening this file.**
+**Status: Locked. Complete the previous session before opening this file.**
 
 This session covers:
 - What a time series is

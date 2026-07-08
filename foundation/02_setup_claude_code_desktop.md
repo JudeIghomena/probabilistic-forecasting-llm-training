@@ -1,4 +1,4 @@
-# Foundation Guide 02 — Setting Up Claude Code Desktop
+# Foundation Guide 02: Setting Up Claude Code Desktop
 
 **Complete Foundation Guide 01 (Python installation) before this.**
 
@@ -20,7 +20,7 @@ without needing to use a browser.
 
 ---
 
-## Step 1 — Download Claude Code Desktop
+## Step 1: Download Claude Code Desktop
 
 1. Go to claude.ai/download in your browser
 2. Choose the version for your operating system (macOS, Windows, or Linux)
@@ -34,7 +34,7 @@ without needing to use a browser.
 
 ---
 
-## Step 2 — Create an Anthropic Account (if you do not have one)
+## Step 2: Create an Anthropic Account (if you do not have one)
 
 1. Go to claude.ai in your browser
 2. Click "Sign up"
@@ -45,7 +45,7 @@ You will use this same account to log in to the desktop app.
 
 ---
 
-## Step 3 — Log In to Claude Code Desktop
+## Step 3: Log In to Claude Code Desktop
 
 1. Open the Claude Code desktop app
 2. Click "Sign in"
@@ -54,7 +54,7 @@ You will use this same account to log in to the desktop app.
 
 ---
 
-## Step 4 — Open a Project Folder
+## Step 4: Open a Project Folder
 
 Claude Code works best when it can see your project files. This is called
 opening a workspace or project folder.
@@ -68,7 +68,7 @@ create, and edit files in that folder.
 
 ---
 
-## Step 5 — Run Your First Test
+## Step 5: Run Your First Test
 
 This confirms Claude Code is set up and connected to your project.
 
@@ -84,7 +84,7 @@ everything is working.
 
 ---
 
-## Step 6 — How to Use Claude Code During This Project
+## Step 6: How to Use Claude Code During This Project
 
 Here is the workflow you will follow every session:
 
@@ -101,7 +101,7 @@ Here is the workflow you will follow every session:
 - "Run this file and show me the output"
 - "What does this function do in plain language?"
 - "Can you add a comment explaining why this line is written this way?"
-- "I want the plot to show one more distribution — add the Student-t distribution"
+- "I want the plot to show one more distribution, add the Student-t distribution"
 - "This is giving an error. What is wrong and how do I fix it?"
 
 **Questions to never skip:**
@@ -114,7 +114,7 @@ Write the answer in your own words in the paper contribution file.
 
 ---
 
-## Step 7 — Important Settings
+## Step 7: Important Settings
 
 **Auto-save:** Make sure auto-save is on so you do not lose work. In most
 editors, this is in Settings under "Auto Save".
@@ -133,7 +133,7 @@ tasks are relative to the project root.
 
 **Errors when running Python:**
 Check that your virtual environment is active. Ask Claude Code: "my virtual
-environment is at prob_pipeline_env — how do I make sure this project uses it?"
+environment is at prob_pipeline_env, how do I make sure this project uses it?"
 
 **Claude Code does not respond:**
 Check your internet connection. Claude Code requires a connection to Anthropic's
